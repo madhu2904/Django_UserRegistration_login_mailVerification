@@ -8,6 +8,7 @@ from django.contrib.auth import authenticate,login
 from django.contrib.auth.hashers import check_password
 from Auth.models import Profile
 from django.core.mail import *
+from django.contrib import messages
 
 import authentication
 from . import models
